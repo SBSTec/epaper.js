@@ -23,32 +23,32 @@ importers:
 
   packages/cli:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       yargs:
         specifier: ^17.3.0
         version: 17.7.2
     devDependencies:
-      '@p1p3/epaperjs-rpi-2in13-bc':
+      '@SBSTec/epaperjs-rpi-2in13-bc':
         specifier: workspace:^
         version: link:../rpi-2in13-bc
-      '@p1p3/epaperjs-rpi-2in13-v2':
+      '@SBSTec/epaperjs-rpi-2in13-v2':
         specifier: workspace:^
         version: link:../rpi-2in13-v2
-      '@p1p3/epaperjs-rpi-2in7':
+      '@SBSTec/epaperjs-rpi-2in7':
         specifier: workspace:^
         version: link:../rpi-2in7
-      '@p1p3/epaperjs-rpi-2in7-v2':
+      '@SBSTec/epaperjs-rpi-2in7-v2':
         specifier: workspace:^
         version: link:../rpi-2in7-v2
-      '@p1p3/epaperjs-rpi-3in7':
+      '@SBSTec/epaperjs-rpi-3in7':
         specifier: workspace:^
         version: link:../rpi-3in7
-      '@p1p3/epaperjs-rpi-4in2':
+      '@SBSTec/epaperjs-rpi-4in2':
         specifier: workspace:^
         version: link:../rpi-4in2
-      '@p1p3/epaperjs-rpi-7in5-v2':
+      '@SBSTec/epaperjs-rpi-7in5-v2':
         specifier: workspace:^
         version: link:../rpi-7in5-v2
       '@types/yargs':
@@ -82,7 +82,7 @@ importers:
 
   packages/rpi-2in13-bc:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -101,7 +101,7 @@ importers:
 
   packages/rpi-2in13-v2:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -120,7 +120,7 @@ importers:
 
   packages/rpi-2in7:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -139,7 +139,7 @@ importers:
 
   packages/rpi-2in7-v2:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -158,7 +158,7 @@ importers:
 
   packages/rpi-3in7:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -177,7 +177,7 @@ importers:
 
   packages/rpi-4in2:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
@@ -196,7 +196,7 @@ importers:
 
   packages/rpi-7in5-v2:
     dependencies:
-      '@p1p3/epaperjs-core':
+      '@SBSTec/epaperjs-core':
         specifier: workspace:^
         version: link:../core
       bindings:
